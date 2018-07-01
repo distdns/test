@@ -1,0 +1,27 @@
+{
+  "name": "@distdns/test",
+  "version": "0.1.1",
+  "description": "dWeb Library For Testing dDNS",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "bin": {
+    "ddns-test": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "dependencies": {
+    "@distdns/server": "distdns/server#master"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
