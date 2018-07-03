@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
-var dns = require('dns-discovery')({
+var dns = require('@distdns/server')({
   server: [
-    'discovery1.publicbits.org',
-    'discovery2.publicbits.org'
+    'revelation1.dwebs.io:6620',
+    'revelation2.dwebs.io:6620'
   ]
 })
 
 dns.whoami(function (err, me) {
   if (err) throw err
-  console.log('dns worked', me)
+  console.log('dWeb dDNS Is Working', me)
   process.exit(0)
 })
