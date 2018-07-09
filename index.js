@@ -3,7 +3,10 @@
 var dns = require('@distdns/server')({
   server: [
     'revelation1.dwebs.io:6620',
-    'revelation2.dwebs.io:6620'
+    'revelation2.dwebs.io:6620',
+    'revelation3.dwebs.io:6620',
+    'revelation4.dwebs.io:6620'
+
   ]
 })
 
