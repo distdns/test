@@ -1,6 +1,6 @@
 {
   "name": "@distdns/test",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "dWeb Library For Testing dDNS",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
